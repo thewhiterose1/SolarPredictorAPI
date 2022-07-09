@@ -2,6 +2,8 @@
 {
     public class GenerateTelemetryResponse
     {
-        public string PostCode { get; set; }
+        public string Latitude { get; set; }
+        public string Longitude { get; set; }
+        public int Hours { get; set; }
     }
 }

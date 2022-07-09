@@ -9,7 +9,9 @@ namespace SolarPredictor.Infrastructure.Repository
         {
             return new GenerateTelemetryResponse()
             {
-                PostCode = "NL452QE"
+                Latitude = "NL452QE",
+                Longitude = "51.323",
+                Hours = 2
             };
         }
     }
